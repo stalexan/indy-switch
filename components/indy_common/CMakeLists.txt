@@ -1,0 +1,25 @@
+idf_component_register(
+    SRCS
+        indy_button.cc
+        indy_config.cc
+        indy_config_secrets.cc
+        indy_json.cc
+        indy_mdns.cc
+        indy_mqtt.cc
+        indy_time.cc
+        indy_nvs.cc
+        indy_output_pin.cc
+        indy_task.cc
+        indy_task_manager.cc
+        indy_util.cc
+        indy_wifi.cc
+    INCLUDE_DIRS "."
+    REQUIRES
+        driver
+        esp_wifi
+        freertos
+        json
+        mdns
+        mqtt
+        nvs_flash
+)

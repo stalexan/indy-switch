@@ -1,0 +1,5 @@
+.cache/
+build/
+managed_components/
+tmp/
+indy_config_secrets.cc
