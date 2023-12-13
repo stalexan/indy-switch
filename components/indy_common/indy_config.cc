@@ -3,13 +3,14 @@
 #include <FreeRTOSConfig.h>
 #include <driver/gpio.h>
 
-
-#ifndef HOLLANDA
+#ifndef LILYGO_T7
+// Espressif DevKitC
 const char* const HOSTNAME = "esp-vorona";  // The hostname to publish with mDNS
 const gpio_num_t BUTTON_GPIO = GPIO_NUM_16;
 const gpio_num_t LED_GPIO = GPIO_NUM_17;
 const gpio_num_t RELAY_GPIO = GPIO_NUM_21;
 #else
+// LILYGO T7
 const char* const HOSTNAME = "esp-hollanda";  // The hostname to publish with mDNS
 const gpio_num_t BUTTON_GPIO = GPIO_NUM_25;
 const gpio_num_t LED_GPIO = GPIO_NUM_27;
