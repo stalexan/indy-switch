@@ -84,8 +84,8 @@ An example of these settings in [`indy_config.cc`](components/indy_common/indy_c
 
 ```
 #define CONFIG_DEVKITC // Compile for the ESP32 DevKitC module.
-const char* const HOSTNAME = "esp-vorona";
-const char* const MQTT_BROKER = "mqtts://elias.alexan.org:8883";
+const char* const HOSTNAME = "foobar";
+const char* const MQTT_BROKER = "mqtts://bettyboop123.com:8883";
 const char* const SNTP_TIME_SERVER = "pool.ntp.org";
 ```
 
