@@ -1,5 +1,3 @@
-#[style(github)]
-
 # IndySwitch
 
 IndySwitch is a small IoT (Internet of things) device for turning a 120V AC switch on
@@ -82,7 +80,7 @@ The file [`indy_config.cc`](components/indy_common/indy_config.cc) is used to co
   [IndyMqtt](https://github.com/stalexan/indy-mqtt) client.
 * The URL of the NTP server used to set the system time.
 
-An example version of [`indy_config.cc`](components/indy_common/indy_config.cc) is:
+An example of these settings in [`indy_config.cc`](components/indy_common/indy_config.cc) is:
 
 ```
 #define CONFIG_DEVKITC // Compile for the ESP32 DevKitC module.
