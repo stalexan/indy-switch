@@ -3,6 +3,7 @@
 
 #include <freertos/FreeRTOS.h>
 
+#include <ctime>
 #include <string>
 
 extern const time_t NULL_TIME;

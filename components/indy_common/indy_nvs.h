@@ -3,6 +3,7 @@
 
 #include <nvs_flash.h>
 
+#include <ctime>
 #include <string>
 
 // Manages ESP32 NVS (non-volatile storage)

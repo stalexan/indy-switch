@@ -3,11 +3,11 @@
 #include <FreeRTOSConfig.h>
 #include <driver/gpio.h>
 
-#define CONFIG_DEVKITC
-//#define CONFIG_LILYGO_T7
+//#define CONFIG_DEVKITC
+#define CONFIG_LILYGO_T7
 
-const char* const HOSTNAME = "esp-vorona";
-//const char* const HOSTNAME = "esp-hollanda";
+//const char* const HOSTNAME = "esp-vorona";
+const char* const HOSTNAME = "esp-hollanda";
 
 #ifdef CONFIG_DEVKITC
 const gpio_num_t BUTTON_GPIO = GPIO_NUM_16;

@@ -1,6 +1,7 @@
 #ifndef COMPONENTS_INDY_COMMON_INDY_TIME_H_
 #define COMPONENTS_INDY_COMMON_INDY_TIME_H_
 
+#include <ctime>
 #include <functional>
 #include <string>
 #include <vector>
